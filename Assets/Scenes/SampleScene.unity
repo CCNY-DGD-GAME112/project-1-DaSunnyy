@@ -554,7 +554,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_SpriteSortPoint: 0
 --- !u!4 &740027925
 Transform:
@@ -964,30 +964,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91a62823c63529d439aae0ac9d7aa82c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
-  movementScript: {fileID: 911204087}
-  playerAnimator: {fileID: 911204079}
   maxHealth: 8
   currentHealth: 8
-  heartUI: {fileID: 883420001}
-  heartSprites:
-  - {fileID: 3782552956776686101, guid: 82d2f5deaa8ef1d4481a2c9bc1ddfd87, type: 3}
-  - {fileID: 4580358592097870347, guid: 7f6a0445e39b4844490c0bb2d7f6e49f, type: 3}
-  - {fileID: 807380946367884823, guid: 2899788bef06eef42b1fb67a053d87a2, type: 3}
-  - {fileID: -8959708367171108741, guid: 8ffd5d40e5b9b9c489f2743db84cdf5e, type: 3}
-  - {fileID: -3079378498014515722, guid: 193e931eacaadac459f96e34ae821977, type: 3}
-  - {fileID: -1505406516874354815, guid: 33feeca1724396c48b27ac7810271837, type: 3}
-  - {fileID: 2004447407408206047, guid: 064e75a9e70f0eb479fd69ad2e20e517, type: 3}
-  - {fileID: -5577897157780031633, guid: bd10172ee8e953248824da3996b8cfb0, type: 3}
-  - {fileID: -1067273948988262321, guid: 57408a900f890544f98961962de4d8e0, type: 3}
-  hurtAnimationName: HeartHurt
-  isZombifying: 0
-  zombifyTime: 25
-  hasGun: 0
-  maxBullets: 6
-  currentBullets: 0
+  canMove: 1
+  playerAnimator: {fileID: 911204079}
+  heartUI: {fileID: 0}
+  gun: {fileID: 0}
   bulletPrefab: {fileID: 4636921910529799848, guid: 24196c7dc27fb064dab5a29e9bd78b72, type: 3}
-  shootOrigin: {fileID: 1105010014}
-  bulletSpeed: 10
+  movement: {fileID: 0}
+  isShooting: 0
+  zombifyTimerText: {fileID: 0}
+  rb: {fileID: 0}
+  hasAntidote: 0
+  zombifyDuration: 25
+  zombifyTimer: 0
+  fireCooldown: 0.2
 --- !u!114 &911204087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1002,24 +993,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   moveSpeed: 2
   runMultiplier: 2
-  groundCheck: {fileID: 1765721278}
-  groundCheckRadius: 0.2
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 8
   jumpForce: 5
-  jumpHoldTime: 0.25
-  fallMultiplier: 2
-  lowJumpMultiplier: 2
   climbSpeed: 1
-  hammerKey: 108
-  chargeTime1: 0.75
-  chargeTime2: 1.5
+  rb: {fileID: 0}
+  player: {fileID: 0}
+  isGrounded: 0
+  isClimbing: 0
+  ShootPoint: {fileID: 0}
+  aimingUp: 0
+  hammerHitboxOffset: {x: 1, y: 0}
   hammerHitboxSize: {x: 1, y: 1}
-  hammerHitboxDistance: 1
-  enemyLayer:
-    serializedVersion: 2
-    m_Bits: 128
 --- !u!1 &1095320954 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7745023102223745730, guid: 7e4bc0aa112960d48b35f68291de2542, type: 3}
@@ -1049,30 +1032,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Zombie
   maxHealth: 5
   moveSpeed: 1
+  attackCooldown: 1
   swipeDamage: 1
   biteDamage: 2
-  attackRange: 1
-  biteRange: 1
-  attackCooldown: 1
-  leftPoint: {fileID: 1339932942}
-  rightPoint: {fileID: 1981713340}
+  rb: {fileID: 0}
+  player: {fileID: 0}
   animator: {fileID: 1095320955}
-  zombifyTime: 25
-  foodPrefabs:
-  - {fileID: 3815455381957214572, guid: dd90f55ed794f2e4788c1973b640e753, type: 3}
-  - {fileID: 1750935016822937652, guid: 0d63e67e1f7b5ac43aa894b35f7def51, type: 3}
-  - {fileID: 8830456898418593955, guid: a932b7585b92228419c629334480dd86, type: 3}
-  - {fileID: 5496039734337928656, guid: d98ec119a226ff54aa6810f3e88c7bea, type: 3}
-  - {fileID: 8468494440432011434, guid: 543a9786b1e2aed4fa185da9417c89fe, type: 3}
-  - {fileID: 8549128604182909659, guid: 9118a6d19b7335a4882815390027559c, type: 3}
-  - {fileID: 7956478019211804485, guid: 690bc1ff10789a942a1639c007cef478, type: 3}
-  - {fileID: 2494828311002328527, guid: 801c09c53f76ac34b93614b5717b07da, type: 3}
-  - {fileID: 1846312863250596637, guid: 2f3ad10723186d644a41927c02614145, type: 3}
-  - {fileID: 5607022496981090981, guid: e0bb350b64f9fc84581dfc6e5c4e9f73, type: 3}
-  - {fileID: 5286305947298423171, guid: bbdd8c8822b869648984b39f8b56556c, type: 3}
-  medKitPrefab: {fileID: 1701883831746436904, guid: ab8823ab627cca24aa6039d381238fce, type: 3}
-  ammoPrefab: {fileID: 7257168368540515696, guid: 55173088110336f44b6c7a29db7254d1, type: 3}
+  dropPrefabs: []
   dropChance: 0.6
+  swipeHitOffset: {x: 0.8, y: 0}
+  swipeHitSize: {x: 1, y: 1}
+  biteHitOffset: {x: 0.5, y: 0}
+  biteHitSize: {x: 0.8, y: 1}
+  scoreValue: 10
 --- !u!50 &1095320960
 Rigidbody2D:
   serializedVersion: 5
