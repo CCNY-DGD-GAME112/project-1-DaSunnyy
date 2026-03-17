@@ -7,6 +7,7 @@ public class AudioManager : MonoBehaviour
     [SerializeField] AudioSource SFXSource;
 
     [Header("Audio Clip")]
+    public AudioClip Ammo;
     public AudioClip Background;
     public AudioClip Victory;
     public AudioClip Dead;
@@ -14,7 +15,6 @@ public class AudioManager : MonoBehaviour
     public AudioClip HammerSwing;
     public AudioClip Heal;
     public AudioClip Hurt;
-    public AudioClip ItemGet;
     public AudioClip Jump;
     public AudioClip Yay;
     public AudioClip Zombie;

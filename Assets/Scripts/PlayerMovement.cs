@@ -23,6 +23,12 @@ public class PlayerMovement : MonoBehaviour
 
     private float originalGravityScale = 1f;
 
+    void Awake()
+    {
+        if (ShootPoint == null)
+            ShootPoint = transform.Find("ShootPoint");
+    }
+
     void Start()
     {
         if (player == null)
@@ -207,5 +213,18 @@ public class PlayerMovement : MonoBehaviour
         {
             player.canMove = value;
         }
+    }
+
+    void LateUpdate()
+    {
+        if (ShootPoint == null) return;
+
+        float facing = Mathf.Sign(transform.localScale.x);
+
+        ShootPoint.localPosition = aimingUp
+            ? new Vector3(0f, 0.5f, 0f)
+            : new Vector3(0.5f, 0f, 0f);
+
+        ShootPoint.localScale = new Vector3(facing, 1f, 1f);
     }
 }

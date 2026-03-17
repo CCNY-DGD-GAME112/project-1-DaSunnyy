@@ -3,7 +3,6 @@ using System.Collections;
 
 public class Zombie2 : MonoBehaviour
 {
-    [Header("Stats")]
     public int maxHealth = 3;
     private int currentHealth;
 
@@ -21,15 +20,14 @@ public class Zombie2 : MonoBehaviour
     [Header("Drops")]
     public GameObject[] dropPrefabs;
     [Range(0f, 1f)]
-    public float dropChance = 0.08f; // 8% per prefab
+    public float dropChance = 0.08f;
 
     [Header("Hitboxes")]
-    public Vector2 swipeHitOffset = new Vector2(0.8f, 0f); // local offset; X will flip with facing
+    public Vector2 swipeHitOffset = new Vector2(0.8f, 0f);
     public Vector2 swipeHitSize = new Vector2(1.0f, 1.0f);
     public Vector2 biteHitOffset = new Vector2(0.5f, 0f);
     public Vector2 biteHitSize = new Vector2(0.8f, 1.0f);
 
-    // runtime flags controlled by animation events
     private bool swipeHitboxActive = false;
     private bool biteHitboxActive = false;
 
@@ -37,7 +35,7 @@ public class Zombie2 : MonoBehaviour
     private float randomStopTimer = 0f;
     private bool isRandomStopping = false;
     private bool lastAttackWasBite = false;
-    private bool isAttacking = false; // Tracks if zombie is mid-attack
+    private bool isAttacking = false;
 
     void Start()
     {
@@ -65,21 +63,18 @@ public class Zombie2 : MonoBehaviour
         attackTimer += Time.deltaTime;
         randomStopTimer -= Time.deltaTime;
 
-        // Handle random stop
         if (randomStopTimer <= 0f)
         {
             isRandomStopping = !isRandomStopping;
             randomStopTimer = Random.Range(1f, 3f);
         }
 
-        // Check hitboxes to decide attack
         bool playerInBite = IsPlayerInBox(biteHitOffset, biteHitSize);
         bool playerInSwipe = IsPlayerInBox(swipeHitOffset, swipeHitSize);
 
-        // Prevent movement while attacking
         if (isAttacking)
         {
-            rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y); // changed linearVelocity -> velocity
+            rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
             if (animator != null)
             {
                 animator.SetBool("isWalking", false);
@@ -87,29 +82,26 @@ public class Zombie2 : MonoBehaviour
             return;
         }
 
-        // UPDATED: alternate attacks but still allow normal movement
         if (attackTimer >= attackCooldown)
         {
             if (playerInBite && !lastAttackWasBite)
             {
                 StartCoroutine(Bite());
-                return; // ADDED: prevent movement same frame
+                return;
             }
 
             if (playerInSwipe)
             {
                 StartCoroutine(Swipe());
-                return; // ADDED
+                return;
             }
         }
 
-        // ADDED: fallback movement when not attacking
         MoveTowardsPlayer(!isRandomStopping);
 
-        // Walking animation only when moving and not attacking
         if (animator != null)
         {
-            animator.SetBool("isWalking", rb.linearVelocity.x != 0f && !isAttacking); // changed linearVelocity -> velocity
+            animator.SetBool("isWalking", rb.linearVelocity.x != 0f && !isAttacking);
         }
     }
 
@@ -131,12 +123,12 @@ public class Zombie2 : MonoBehaviour
         if (canMove)
         {
             Vector2 dir = (player.position - transform.position).normalized;
-            rb.linearVelocity = new Vector2(dir.x * moveSpeed, rb.linearVelocity.y); // changed linearVelocity -> velocity
+            rb.linearVelocity = new Vector2(dir.x * moveSpeed, rb.linearVelocity.y);
             transform.localScale = new Vector3(Mathf.Sign(dir.x), 1f, 1f);
         }
         else
         {
-            rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y); // changed linearVelocity -> velocity
+            rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
         }
     }
 
@@ -146,7 +138,7 @@ public class Zombie2 : MonoBehaviour
         attackTimer = 0f;
         lastAttackWasBite = false;
 
-        rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y); // changed linearVelocity -> velocity
+        rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
 
         if (animator != null)
         {
@@ -154,13 +146,10 @@ public class Zombie2 : MonoBehaviour
             animator.Play("ZombieF_Attack");
         }
 
-        // fallback: wait clip-length or small timeout -- animation event should trigger actual hits
         yield return new WaitForSeconds(0.25f);
 
-        // fallback hit (in case animation events not setup)
         if (!swipeHitboxActive)
         {
-            // temporary enable for fallback window
             swipeHitboxActive = true;
             OnSwipeHit();
             swipeHitboxActive = false;
@@ -179,7 +168,7 @@ public class Zombie2 : MonoBehaviour
         attackTimer = 0f;
         lastAttackWasBite = true;
 
-        rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y); // changed linearVelocity -> velocity
+        rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
 
         if (animator != null)
         {
@@ -187,7 +176,6 @@ public class Zombie2 : MonoBehaviour
             animator.Play("ZombieF_Bite");
         }
 
-        // fallback: wait clip-length or small timeout -- animation event should trigger actual hits
         yield return new WaitForSeconds(0.35f);
 
         if (!biteHitboxActive)
@@ -204,17 +192,15 @@ public class Zombie2 : MonoBehaviour
         isAttacking = false;
     }
 
-    // animation-event API: enable/disable hitboxes (call from clips at the desired frames)
-    public void EnableSwipeHitbox() { swipeHitboxActive = true; } // animation-event API
-    public void DisableSwipeHitbox() { swipeHitboxActive = false; } // animation-event API
-    public void EnableBiteHitbox() { biteHitboxActive = true; } // animation-event API
-    public void DisableBiteHitbox() { biteHitboxActive = false; } // animation-event API
+    public void EnableSwipeHitbox() { swipeHitboxActive = true; }
+    public void DisableSwipeHitbox() { swipeHitboxActive = false; }
+    public void EnableBiteHitbox() { biteHitboxActive = true; }
+    public void DisableBiteHitbox() { biteHitboxActive = false; }
 
-    // Animation event handlers (use these on the attack/bite clips at the hit frame)
     public void OnSwipeHit()
     {
         if (player == null) return;
-        if (!swipeHitboxActive) return; // ensure only active windows hit (fallback enables briefly above)
+        if (!swipeHitboxActive) return;
 
         float facing = Mathf.Sign(transform.localScale.x);
         Vector3 origin = transform.position + new Vector3(swipeHitOffset.x * facing, swipeHitOffset.y, 0f);
@@ -257,7 +243,6 @@ public class Zombie2 : MonoBehaviour
 
     public void OnAttackEnd()
     {
-        // support animation event to clear attacking state if used
         isAttacking = false;
     }
 
@@ -293,7 +278,6 @@ public class Zombie2 : MonoBehaviour
 
     void OnDrawGizmosSelected()
     {
-        // debug hitboxes
         float facing = (transform != null) ? Mathf.Sign(transform.localScale.x) : 1f;
         Vector3 swipeOrigin = transform.position + new Vector3(swipeHitOffset.x * facing, swipeHitOffset.y, 0f);
         Gizmos.color = Color.magenta;

@@ -14,7 +14,6 @@ public class HeartUI : MonoBehaviour
         heartImage.sprite = heartSprites[idx];
     }
 
-    // Backwards-compatible method kept
     public void PlayHeartHurt(int health)
     {
         UpdateHearts(health);

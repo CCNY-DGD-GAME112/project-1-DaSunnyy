@@ -5,51 +5,39 @@ public class Gun : MonoBehaviour
     public int maxAmmo = 6;
     public int currentAmmo = 6;
 
-    public float fireRate = 0.25f;
-    private float cooldown = 0f;
-
-    [Header("Bullet")]
-    public GameObject bulletPrefab;
-    private Vector2 lastFireDir = Vector2.right;
-
-    [Header("Owner")]
+    [HideInInspector]
     public PlayerController owner;
 
-    void Awake()
+    public void Equip(PlayerController newOwner)
     {
-        currentAmmo = Mathf.Clamp(currentAmmo, 0, maxAmmo);
+        owner = newOwner;
+        owner.gun = this;
+        currentAmmo = maxAmmo;
+        owner.OnGunEquipped();
     }
 
-    void Update()
+    public void TryFire(Vector2 direction, Vector3 spawnPos, GameObject bulletPrefab)
     {
-        if (cooldown > 0f) cooldown -= Time.deltaTime;
-    }
+        if (!CanFire()) return;
 
-    public void TryFire(Vector2 dir, Vector3 spawnPos)
-    {
-        if (owner != null && (!owner.canMove || owner.isDead)) return;
-        if (cooldown > 0f) return;
-        if (currentAmmo <= 0) return;
-
-        currentAmmo = Mathf.Max(0, currentAmmo - 1);
-        cooldown = fireRate;
-
-        lastFireDir = dir.normalized != Vector2.zero ? dir.normalized : Vector2.right;
-
-        SpawnBullet(spawnPos);
-
-        owner?.OnAmmoChanged(currentAmmo);
-    }
-
-    public void SpawnBullet(Vector3 spawnPos)
-    {
-        if (bulletPrefab == null) return;
-
-        GameObject go = Instantiate(bulletPrefab, spawnPos, Quaternion.identity);
-        if (go.TryGetComponent<Bullet>(out var b))
+        if (bulletPrefab != null)
         {
-            b.SetDirection(lastFireDir);
+            GameObject b = Object.Instantiate(bulletPrefab, spawnPos, Quaternion.identity);
+            if (b.TryGetComponent<Bullet>(out var bullet))
+            {
+                bullet.SetDirection(direction);
+            }
         }
+
+        ConsumeAmmo();
+    }
+
+    public bool CanFire()
+    {
+        if (owner == null) return false;
+        if (!owner.isShooting && !owner.canMove) return false;
+        if (owner.isDead) return false;
+        return currentAmmo > 0;
     }
 
     public void AddAmmo(int amount)
@@ -58,12 +46,9 @@ public class Gun : MonoBehaviour
         owner?.OnAmmoChanged(currentAmmo);
     }
 
-    public void Equip(PlayerController newOwner)
+    public void ConsumeAmmo(int amount = 1)
     {
-        owner = newOwner;
-        currentAmmo = Mathf.Clamp(currentAmmo, 0, maxAmmo);
-        owner?.OnGunEquipped();
+        currentAmmo = Mathf.Max(0, currentAmmo - amount);
+        owner?.OnAmmoChanged(currentAmmo);
     }
-
-    public bool CanFire() => cooldown <= 0f && currentAmmo > 0 && (owner == null || (owner.canMove && !owner.isDead));
 }

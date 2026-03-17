@@ -5,32 +5,28 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour
 {
-    [Header("Health")]
     public int maxHealth = 8;
     public int currentHealth;
 
-    [Header("Movement")]
     public bool canMove = true;
 
-    [Header("References")]
     public PlayerAnimator playerAnimator;
     public HeartUI heartUI;
+    public Gun gun;
+    public GameObject bulletPrefab;
     public PlayerMovement movement;
+    public bool isShooting = false;
 
-    [Header("UI")]
     public TMP_Text zombifyTimerText;
 
-    [Header("Physics")]
     public Rigidbody2D rb;
 
-    [Header("Zombification")]
     public bool hasAntidote = false;
     public float zombifyDuration = 25f;
     public float zombifyTimer;
 
-    [Header("Weapons")]
-    public Gun gun;
-    public bool isShooting = false;
+    public float fireCooldown = 0.2f;
+    private float fireTimer = 0f;
 
     public bool isDead { get; private set; } = false;
     public bool isZombifying { get; private set; } = false;
@@ -59,19 +55,12 @@ public class PlayerController : MonoBehaviour
 
         if (gun == null || movement == null) return;
 
+        fireTimer -= Time.deltaTime;
+
         if (Input.GetKey(KeyCode.Space))
         {
             isShooting = true;
-
-            Vector2 dir = movement.aimingUp ? Vector2.up : new Vector2(Mathf.Sign(transform.localScale.x), 0f);
-
-            if (playerAnimator != null && playerAnimator.animator != null)
-                playerAnimator.animator.SetTrigger(movement.aimingUp ? "isShootingUp" : "isShooting");
-
-            if (gun.CanFire() && movement.ShootPoint != null)
-            {
-                gun.TryFire(dir, movement.ShootPoint.position);
-            }
+            playerAnimator?.animator.SetTrigger(movement.aimingUp ? "isShootingUp" : "isShooting");
         }
         else
         {
@@ -196,6 +185,7 @@ public class PlayerController : MonoBehaviour
         if (gun != null)
         {
             gun.Equip(this);
+            canMove = true;
             return;
         }
 
@@ -204,9 +194,11 @@ public class PlayerController : MonoBehaviour
         {
             gun = g;
             gun.Equip(this);
+            canMove = true;
             return;
         }
     }
+
     public void OnAmmoChanged(int newAmmo)
     {
 
@@ -221,5 +213,32 @@ public class PlayerController : MonoBehaviour
     {
         yield return new WaitForSeconds(0.2f);
         isShooting = false;
+    }
+
+    public void ShootFromAnimationEvent()
+    {
+        if (gun == null || movement == null || bulletPrefab == null) return;
+
+        Vector2 dir = movement.aimingUp ? Vector2.up : new Vector2(Mathf.Sign(transform.localScale.x), 0f);
+        gun.TryFire(dir, movement.ShootPoint.position, bulletPrefab);
+    }
+
+    public void SpawnBulletEvent()
+    {
+        if (gun == null || movement == null || movement.ShootPoint == null || bulletPrefab == null)
+        {
+            Debug.Log("Cannot spawn bullet! Missing references.");
+            return;
+        }
+
+        if (!gun.CanFire())
+        {
+            Debug.Log($"Cannot fire! Ammo: {gun.currentAmmo}, owner: {gun.owner}, canMove: {gun.owner?.canMove}, isDead: {gun.owner?.isDead}");
+            return;
+        }
+
+        Vector2 dir = movement.aimingUp ? Vector2.up : new Vector2(Mathf.Sign(transform.localScale.x), 0f);
+
+        gun.TryFire(dir, movement.ShootPoint.position, bulletPrefab);
     }
 }
