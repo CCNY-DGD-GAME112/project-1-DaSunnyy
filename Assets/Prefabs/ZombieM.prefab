@@ -92,7 +92,7 @@ Transform:
   m_GameObject: {fileID: 7745023102223745730}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.3563166, y: -5.6581717, z: 0}
+  m_LocalPosition: {x: -3.976591, y: -5.7321944, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -200,6 +200,7 @@ MonoBehaviour:
   swipeHitSize: {x: 0.5, y: 1}
   biteHitOffset: {x: 0.1, y: 0}
   biteHitSize: {x: 0.5, y: 1}
+  scoreValue: 10
 --- !u!95 &5088517954377741921
 Animator:
   serializedVersion: 7

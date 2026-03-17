@@ -25,6 +25,8 @@ public class Zombie : MonoBehaviour
     public Vector2 biteHitOffset = new Vector2(0.5f, 0f);
     public Vector2 biteHitSize = new Vector2(0.8f, 1.0f);
 
+    public int scoreValue = 10;
+
     private bool swipeHitboxActive = false;
     private bool biteHitboxActive = false;
 
@@ -141,6 +143,7 @@ public class Zombie : MonoBehaviour
         {
             animator.SetBool("isWalking", false);
             animator.Play("ZombieM_Attack");
+            AudioManager.Instance?.PlaySFX(AudioManager.Instance.HammerSwing);
         }
 
         yield return new WaitForSeconds(0.25f);
@@ -246,11 +249,16 @@ public class Zombie : MonoBehaviour
     public void TakeDamage(int dmg, Vector2 knockback)
     {
         currentHealth -= dmg;
+        AudioManager.Instance?.PlaySFX(AudioManager.Instance.ZombieHurt);
         rb.AddForce(knockback * 2f, ForceMode2D.Impulse);
 
         if (currentHealth <= 0)
         {
             rb.linearVelocity = Vector2.zero;
+
+            Score.Instance?.AddScore(scoreValue);
+
+            AudioManager.Instance?.PlaySFX(AudioManager.Instance.ZombieDead);
 
             SpawnDrops();
 

@@ -7,7 +7,7 @@ public class Bullet : MonoBehaviour
     public float lifeTime = 2f;
     private Vector2 direction;
     public SpriteRenderer spriteRenderer;
-
+    
     public void SetDirection(Vector2 dir)
     {
         direction = dir.normalized;

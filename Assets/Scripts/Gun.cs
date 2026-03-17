@@ -27,6 +27,7 @@ public class Gun : MonoBehaviour
             {
                 bullet.SetDirection(direction);
             }
+            AudioManager.Instance?.PlaySFX(AudioManager.Instance.Gun);
         }
 
         ConsumeAmmo();

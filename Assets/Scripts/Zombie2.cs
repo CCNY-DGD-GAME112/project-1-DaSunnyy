@@ -12,21 +12,20 @@ public class Zombie2 : MonoBehaviour
     public int swipeDamage = 1;
     public int biteDamage = 2;
 
-    [Header("References")]
     public Rigidbody2D rb;
     public Transform player;
     public Animator animator;
 
-    [Header("Drops")]
     public GameObject[] dropPrefabs;
     [Range(0f, 1f)]
     public float dropChance = 0.08f;
 
-    [Header("Hitboxes")]
     public Vector2 swipeHitOffset = new Vector2(0.8f, 0f);
     public Vector2 swipeHitSize = new Vector2(1.0f, 1.0f);
     public Vector2 biteHitOffset = new Vector2(0.5f, 0f);
     public Vector2 biteHitSize = new Vector2(0.8f, 1.0f);
+
+    public int scoreValue = 10;
 
     private bool swipeHitboxActive = false;
     private bool biteHitboxActive = false;
@@ -144,6 +143,7 @@ public class Zombie2 : MonoBehaviour
         {
             animator.SetBool("isWalking", false);
             animator.Play("ZombieF_Attack");
+            AudioManager.Instance?.PlaySFX(AudioManager.Instance.HammerSwing);
         }
 
         yield return new WaitForSeconds(0.25f);
@@ -249,11 +249,16 @@ public class Zombie2 : MonoBehaviour
     public void TakeDamage(int dmg, Vector2 knockback)
     {
         currentHealth -= dmg;
+        AudioManager.Instance?.PlaySFX(AudioManager.Instance.ZombieHurt);
         rb.AddForce(knockback * 2f, ForceMode2D.Impulse);
 
         if (currentHealth <= 0)
         {
             rb.linearVelocity = Vector2.zero;
+
+            Score.Instance?.AddScore(scoreValue);
+
+            AudioManager.Instance?.PlaySFX(AudioManager.Instance.ZombieDead);
 
             SpawnDrops();
 

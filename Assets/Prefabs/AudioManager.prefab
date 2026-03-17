@@ -48,14 +48,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AudioManager
   musicSource: {fileID: 6529865103991532043}
   SFXSource: {fileID: 4589975929545770602}
+  Ammo: {fileID: 8300000, guid: 88157b4a7386679479089913e6328fb0, type: 3}
   Background: {fileID: 8300000, guid: cb0ebd5bd31ab9045812150329646d81, type: 3}
   Victory: {fileID: 8300000, guid: 7e05ca9cb08ff3344a3686346875846d, type: 3}
   Dead: {fileID: 8300000, guid: ed15b8ad70c7094458a8e799ed6a6be9, type: 3}
+  Gun: {fileID: 8300000, guid: 45cb29a7c13584044a1a4ba6a327ab9c, type: 3}
   HammerHit: {fileID: 8300000, guid: 76a3f8708361d2d4d9bcbba4cb272a07, type: 3}
   HammerSwing: {fileID: 8300000, guid: 7921db1cac4b0c443976ee5fc0722f04, type: 3}
   Heal: {fileID: 8300000, guid: 658563d762b1fa440a8eb998fc48f86c, type: 3}
   Hurt: {fileID: 8300000, guid: e761f93d79d54bf4a9da221e221abf3c, type: 3}
-  ItemGet: {fileID: 8300000, guid: 24adaecd449e87045aefa5182c0fe1cd, type: 3}
   Jump: {fileID: 8300000, guid: 999745626688d0845b0ec09e22aa85f3, type: 3}
   Yay: {fileID: 8300000, guid: 0d35b833581eefe42bc04320e201ad4f, type: 3}
   Zombie: {fileID: 8300000, guid: 1dc4d48971e782d4e97e4ea240a942e5, type: 3}

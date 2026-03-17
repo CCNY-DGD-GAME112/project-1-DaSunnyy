@@ -116,7 +116,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   moveSpeed: 2
   runMultiplier: 2
-  jumpForce: 4
+  jumpForce: 5
   climbSpeed: 2
   rb: {fileID: 3408597545751738220}
   player: {fileID: 363559025480692220}
@@ -143,15 +143,16 @@ MonoBehaviour:
   canMove: 0
   playerAnimator: {fileID: 1075226541765740925}
   heartUI: {fileID: 0}
+  gun: {fileID: 0}
+  bulletPrefab: {fileID: 0}
   movement: {fileID: 8187712228996675608}
+  isShooting: 0
   zombifyTimerText: {fileID: 0}
   rb: {fileID: 3408597545751738220}
-  bulletPrefab: {fileID: 0}
   hasAntidote: 0
   zombifyDuration: 25
   zombifyTimer: 0
-  gun: {fileID: 0}
-  isShooting: 0
+  fireCooldown: 0.2
 --- !u!212 &2142362902221795106
 SpriteRenderer:
   serializedVersion: 2

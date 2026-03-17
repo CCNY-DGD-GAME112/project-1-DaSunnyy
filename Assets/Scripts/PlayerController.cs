@@ -31,10 +31,15 @@ public class PlayerController : MonoBehaviour
     public bool isDead { get; private set; } = false;
     public bool isZombifying { get; private set; } = false;
 
+    AudioManager audioManager;
+
     void Awake()
     {
         rb ??= GetComponent<Rigidbody2D>();
         currentHealth = maxHealth;
+
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+
     }
 
     void Start()
@@ -83,13 +88,17 @@ public class PlayerController : MonoBehaviour
         heartUI?.UpdateHearts(currentHealth);
 
         if (playerAnimator != null && currentHealth > 0)
+        {
             playerAnimator.PlayHurt();
+            AudioManager.Instance?.PlaySFX(AudioManager.Instance.Hurt);
+        }
 
         if (currentHealth <= 0 && !isDead)
         {
             isDead = true;
             canMove = false;
             playerAnimator?.PlayDie();
+            AudioManager.Instance?.PlaySFX(AudioManager.Instance.Dead);
         }
     }
 
@@ -124,9 +133,6 @@ public class PlayerController : MonoBehaviour
 
         if (zombifyTimerText != null)
             zombifyTimerText.gameObject.SetActive(false);
-
-        if (playerAnimator?.animator != null)
-            playerAnimator.animator.SetFloat("ZombifyTimer", 0f);
     }
 
     private void HandleZombification()
@@ -138,14 +144,12 @@ public class PlayerController : MonoBehaviour
         if (zombifyTimerText != null)
             zombifyTimerText.text = zombifyTimer.ToString("F0");
 
-        if (playerAnimator?.animator != null)
-            playerAnimator.animator.SetFloat("ZombifyTimer", zombifyTimer);
-
         if (zombifyTimer <= 0f && !isDead)
         {
             isDead = true;
             canMove = false;
             playerAnimator?.PlayZombify();
+            AudioManager.Instance?.PlaySFX(AudioManager.Instance.Dead);
         }
     }
 

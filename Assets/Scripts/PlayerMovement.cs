@@ -121,6 +121,7 @@ public class PlayerMovement : MonoBehaviour
         {
             if (rb != null) rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
             isGrounded = false;
+            AudioManager.Instance?.PlaySFX(AudioManager.Instance.Jump);
         }
 
         float speed = moveSpeed * (isRunning ? runMultiplier : 1f);
@@ -132,6 +133,7 @@ public class PlayerMovement : MonoBehaviour
         {
             hammerPressed = true;
             StartCoroutine(HammerAttack());
+            AudioManager.Instance?.PlaySFX(AudioManager.Instance.HammerSwing);
         }
     }
 
@@ -156,6 +158,8 @@ public class PlayerMovement : MonoBehaviour
         Vector2 center = (Vector2)transform.position + new Vector2(hammerHitboxOffset.x * facing, hammerHitboxOffset.y);
         Collider2D[] hits = Physics2D.OverlapBoxAll(center, hammerHitboxSize, 0f);
 
+        bool hitSomething = false;
+
         foreach (var hit in hits)
         {
             if (hit.gameObject == gameObject) continue;
@@ -166,11 +170,18 @@ public class PlayerMovement : MonoBehaviour
             if (zombie != null)
             {
                 zombie.TakeDamage(2, knockback);
+                hitSomething = true;
             }
             else if (zombie2 != null)
             {
                 zombie2.TakeDamage(2, knockback);
+                hitSomething = true;
             }
+        }
+
+        if (hitSomething)
+        {
+            AudioManager.Instance?.PlaySFX(AudioManager.Instance.HammerHit);
         }
     }
 
