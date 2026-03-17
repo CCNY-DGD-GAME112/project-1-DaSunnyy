@@ -1,0 +1,2899 @@
+fileFormatVersion: 2
+guid: 63e9049bf1a10bb44b8343e2d8d9ce58
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8914473247988746871
+    second: FG High_0
+  - first:
+      213: 6458780213899960057
+    second: FG High_1
+  - first:
+      213: 5757817067191322840
+    second: FG High_2
+  - first:
+      213: -7126662098120501126
+    second: FG High_3
+  - first:
+      213: 622352568372324079
+    second: FG High_4
+  - first:
+      213: -734755662084476883
+    second: FG High_5
+  - first:
+      213: 5609366842428532163
+    second: FG High_6
+  - first:
+      213: 347362902424339512
+    second: FG High_7
+  - first:
+      213: -8780194221597129683
+    second: FG High_8
+  - first:
+      213: -1486155052970217620
+    second: FG High_9
+  - first:
+      213: 2303819065886729308
+    second: FG High_10
+  - first:
+      213: 704647178833415406
+    second: FG High_11
+  - first:
+      213: -2597014851060978469
+    second: FG High_12
+  - first:
+      213: -5458848299592407778
+    second: FG High_13
+  - first:
+      213: -6060025425312851264
+    second: FG High_14
+  - first:
+      213: -7161027272650521943
+    second: FG High_15
+  - first:
+      213: -6200307784793978910
+    second: FG High_16
+  - first:
+      213: -8969996342589456863
+    second: FG High_17
+  - first:
+      213: -1963141110810630912
+    second: FG High_18
+  - first:
+      213: -3451917305301015705
+    second: FG High_19
+  - first:
+      213: 5224822046255295823
+    second: FG High_20
+  - first:
+      213: 4550624692198422961
+    second: FG High_21
+  - first:
+      213: 6939842577739792733
+    second: FG High_22
+  - first:
+      213: -8539267858193942710
+    second: FG High_23
+  - first:
+      213: -238144257058334610
+    second: FG High_24
+  - first:
+      213: -5022784101170796407
+    second: FG High_25
+  - first:
+      213: 272813313735908459
+    second: FG High_26
+  - first:
+      213: 8801116991209301855
+    second: FG High_27
+  - first:
+      213: -1406278109998494858
+    second: FG High_28
+  - first:
+      213: -8774309365400213712
+    second: FG High_29
+  - first:
+      213: -281084601502948985
+    second: FG High_30
+  - first:
+      213: -9080618907389025453
+    second: FG High_31
+  - first:
+      213: 7777594146093703252
+    second: FG High_32
+  - first:
+      213: 4205289261268174259
+    second: FG High_33
+  - first:
+      213: 2728817766605958303
+    second: FG High_34
+  - first:
+      213: -245795024864838240
+    second: FG High_35
+  - first:
+      213: 2575079715619191271
+    second: FG High_36
+  - first:
+      213: 5407815225910681184
+    second: FG High_37
+  - first:
+      213: 4599357761529353261
+    second: FG High_38
+  - first:
+      213: -8321266578423197908
+    second: FG High_39
+  - first:
+      213: -8395863753661864860
+    second: FG High_40
+  - first:
+      213: 790609106058751624
+    second: FG High_41
+  - first:
+      213: 1964200853520343431
+    second: FG High_42
+  - first:
+      213: -2692735968975959196
+    second: FG High_43
+  - first:
+      213: 3947212366481145628
+    second: FG High_44
+  - first:
+      213: -708117705414913521
+    second: FG High_45
+  - first:
+      213: 7144050732984517902
+    second: FG High_46
+  - first:
+      213: -1520252536339016157
+    second: FG High_47
+  - first:
+      213: -5781391122327530381
+    second: FG High_48
+  - first:
+      213: -299921441936580854
+    second: FG High_49
+  - first:
+      213: 9203865512547055847
+    second: FG High_50
+  - first:
+      213: -2228194374096505587
+    second: FG High_51
+  - first:
+      213: -4179625168095537770
+    second: FG High_52
+  - first:
+      213: -5220212632515971312
+    second: FG High_53
+  - first:
+      213: -2043160439711667013
+    second: FG High_54
+  - first:
+      213: 3383945536401581337
+    second: FG High_55
+  - first:
+      213: -7778050305345638849
+    second: FG High_56
+  - first:
+      213: -8335915512394584465
+    second: FG High_57
+  - first:
+      213: -3683015087810912854
+    second: FG High_58
+  - first:
+      213: -8760400702394531581
+    second: FG High_59
+  - first:
+      213: -962067634509575034
+    second: FG High_60
+  - first:
+      213: -4091262418964338709
+    second: FG High_61
+  - first:
+      213: -8768453009083831543
+    second: FG High_62
+  - first:
+      213: -6797368569413775144
+    second: FG High_63
+  - first:
+      213: -403027138477840903
+    second: FG High_64
+  - first:
+      213: -1865361660565198429
+    second: FG High_65
+  - first:
+      213: 294397881822328522
+    second: FG High_66
+  - first:
+      213: 3642678303156059180
+    second: FG High_67
+  - first:
+      213: 941778291960395716
+    second: FG High_68
+  - first:
+      213: -7168659970535238046
+    second: FG High_69
+  - first:
+      213: 8599989370385619212
+    second: FG High_70
+  - first:
+      213: -3869727201838332377
+    second: FG High_71
+  - first:
+      213: -5248315251874316189
+    second: FG High_72
+  - first:
+      213: -6683893855727566450
+    second: FG High_73
+  - first:
+      213: 7070274315630573305
+    second: FG High_74
+  - first:
+      213: 9076990205861630413
+    second: FG High_75
+  - first:
+      213: -8502299125936705252
+    second: FG High_76
+  - first:
+      213: -3619056553557804191
+    second: FG High_77
+  - first:
+      213: -313877798834191314
+    second: FG High_78
+  - first:
+      213: -202354312827840372
+    second: FG High_79
+  - first:
+      213: -3197551114909441205
+    second: FG High_80
+  - first:
+      213: -1082971782720505562
+    second: FG High_81
+  - first:
+      213: -8994246027865626073
+    second: FG High_82
+  - first:
+      213: -3266333666712085064
+    second: FG High_83
+  - first:
+      213: -5125585398549479174
+    second: FG High_84
+  - first:
+      213: -3929823526605994923
+    second: FG High_85
+  - first:
+      213: 2116393735458422321
+    second: FG High_86
+  - first:
+      213: -2560972052035910185
+    second: FG High_87
+  - first:
+      213: 8514747519128479170
+    second: FG High_88
+  - first:
+      213: -4717260152396535175
+    second: FG High_89
+  - first:
+      213: -876197945026179777
+    second: FG High_90
+  - first:
+      213: -1644029068842273319
+    second: FG High_91
+  - first:
+      213: -2867832275846018921
+    second: FG High_92
+  - first:
+      213: 2620784467276272291
+    second: FG High_93
+  - first:
+      213: -6285753034383576462
+    second: FG High_94
+  - first:
+      213: 7959233464684193086
+    second: FG High_95
+  - first:
+      213: -8182141254853111191
+    second: FG High_96
+  - first:
+      213: -2794580448748849354
+    second: FG High_97
+  - first:
+      213: 2072613181710196802
+    second: FG High_98
+  - first:
+      213: 658707488798936329
+    second: FG High_99
+  - first:
+      213: -2537545668146922055
+    second: FG High_100
+  - first:
+      213: -74441810258573062
+    second: FG High_101
+  - first:
+      213: 8724574415113390058
+    second: FG High_102
+  - first:
+      213: -6494794625114250015
+    second: FG High_103
+  - first:
+      213: -761109860477635684
+    second: FG High_104
+  - first:
+      213: 3779089681678129213
+    second: FG High_105
+  - first:
+      213: 6885441881210397625
+    second: FG High_106
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FG High_0
+      rect:
+        serializedVersion: 2
+        x: 4412
+        y: 2175
+        width: 1381
+        height: 802
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98578e5dfcd694480800000000000000
+      internalID: -8914473247988746871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_1
+      rect:
+        serializedVersion: 2
+        x: 8287
+        y: 2959
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fe14db626232a950800000000000000
+      internalID: 6458780213899960057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_2
+      rect:
+        serializedVersion: 2
+        x: 8479
+        y: 2815
+        width: 194
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d8ce9bcd10e7ef40800000000000000
+      internalID: 5757817067191322840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_3
+      rect:
+        serializedVersion: 2
+        x: 8639
+        y: 2623
+        width: 1026
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7899479492091d90800000000000000
+      internalID: -7126662098120501126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_4
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 2399
+        width: 1554
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe662e21d5a03a800800000000000000
+      internalID: 622352568372324079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_5
+      rect:
+        serializedVersion: 2
+        x: 3647
+        y: 2591
+        width: 578
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d207fb44e9f9dc5f0800000000000000
+      internalID: -734755662084476883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_6
+      rect:
+        serializedVersion: 2
+        x: 5759
+        y: 2559
+        width: 562
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c5aec96c6978dd40800000000000000
+      internalID: 5609366842428532163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_7
+      rect:
+        serializedVersion: 2
+        x: 6783
+        y: 2767
+        width: 450
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 834c62728b412d400800000000000000
+      internalID: 347362902424339512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_8
+      rect:
+        serializedVersion: 2
+        x: 7295
+        y: 1679
+        width: 1314
+        height: 1234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2404caffdb762680800000000000000
+      internalID: -8780194221597129683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_9
+      rect:
+        serializedVersion: 2
+        x: 9087
+        y: 591
+        width: 2178
+        height: 2258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6fee827add106be0800000000000000
+      internalID: -1486155052970217620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_10
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 2687
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5463f8fb3fc8ff10800000000000000
+      internalID: 2303819065886729308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_11
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 2591
+        width: 36
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eecc85230e867c900800000000000000
+      internalID: 704647178833415406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_12
+      rect:
+        serializedVersion: 2
+        x: 14303
+        y: 2591
+        width: 18
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdca816a0cc85fbd0800000000000000
+      internalID: -2597014851060978469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_13
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 2623
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e15ac0cc4664e34b0800000000000000
+      internalID: -5458848299592407778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_14
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 2367
+        width: 386
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ca546aabf676eba0800000000000000
+      internalID: -6060025425312851264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_15
+      rect:
+        serializedVersion: 2
+        x: 6431
+        y: 2591
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a208c2e2abee9c90800000000000000
+      internalID: -7161027272650521943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_16
+      rect:
+        serializedVersion: 2
+        x: 8671
+        y: 2591
+        width: 210
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e7044d9be414f9a0800000000000000
+      internalID: -6200307784793978910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_17
+      rect:
+        serializedVersion: 2
+        x: 14207
+        y: 2591
+        width: 18
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12ef66bf9db248380800000000000000
+      internalID: -8969996342589456863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_18
+      rect:
+        serializedVersion: 2
+        x: 6748
+        y: 2431
+        width: 136
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 005aa269f8581c4e0800000000000000
+      internalID: -1963141110810630912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_19
+      rect:
+        serializedVersion: 2
+        x: 8479
+        y: 2495
+        width: 258
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7636287ff735810d0800000000000000
+      internalID: -3451917305301015705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_20
+      rect:
+        serializedVersion: 2
+        x: 11967
+        y: 2367
+        width: 514
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4d2da108fb428840800000000000000
+      internalID: 5224822046255295823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_21
+      rect:
+        serializedVersion: 2
+        x: 2959
+        y: 2335
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b9bb9c1c01172f30800000000000000
+      internalID: 4550624692198422961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_22
+      rect:
+        serializedVersion: 2
+        x: 3247
+        y: 2383
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d51cf4b3e064f4060800000000000000
+      internalID: 6939842577739792733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_23
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 2159
+        width: 517
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a47707e302d6e7980800000000000000
+      internalID: -8539267858193942710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_24
+      rect:
+        serializedVersion: 2
+        x: 11135
+        y: 2239
+        width: 226
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e681db85f01f1bcf0800000000000000
+      internalID: -238144257058334610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_25
+      rect:
+        serializedVersion: 2
+        x: 13247
+        y: 2143
+        width: 546
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9882c3ac87c7b4ab0800000000000000
+      internalID: -5022784101170796407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_26
+      rect:
+        serializedVersion: 2
+        x: 14415
+        y: 2271
+        width: 18
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6cd93f634a39c300800000000000000
+      internalID: 272813313735908459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_27
+      rect:
+        serializedVersion: 2
+        x: 17247
+        y: 2303
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f576fafe549d32a70800000000000000
+      internalID: 8801116991209301855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_28
+      rect:
+        serializedVersion: 2
+        x: 18015
+        y: 2303
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67bc12e7285eb7ce0800000000000000
+      internalID: -1406278109998494858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_29
+      rect:
+        serializedVersion: 2
+        x: 21343
+        y: 2303
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 037efe5de146b3680800000000000000
+      internalID: -8774309365400213712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_30
+      rect:
+        serializedVersion: 2
+        x: 22111
+        y: 2303
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 781a59f4b03691cf0800000000000000
+      internalID: -281084601502948985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_31
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 2255
+        width: 82
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 353a16407392bf180800000000000000
+      internalID: -9080618907389025453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_32
+      rect:
+        serializedVersion: 2
+        x: 2687
+        y: 2224
+        width: 194
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 450a21d1ba09feb60800000000000000
+      internalID: 7777594146093703252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_33
+      rect:
+        serializedVersion: 2
+        x: 3119
+        y: 2191
+        width: 114
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b587a37d403c5a30800000000000000
+      internalID: 4205289261268174259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_34
+      rect:
+        serializedVersion: 2
+        x: 6223
+        y: 2175
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9ca2530d45bed520800000000000000
+      internalID: 2728817766605958303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_35
+      rect:
+        serializedVersion: 2
+        x: 16991
+        y: 2239
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ad7f572ab2c69cf0800000000000000
+      internalID: -245795024864838240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_36
+      rect:
+        serializedVersion: 2
+        x: 18271
+        y: 2239
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e9bbc5ab558cb320800000000000000
+      internalID: 2575079715619191271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_37
+      rect:
+        serializedVersion: 2
+        x: 21087
+        y: 2239
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06eda5fcb4b6c0b40800000000000000
+      internalID: 5407815225910681184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_38
+      rect:
+        serializedVersion: 2
+        x: 22367
+        y: 2239
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2494e2048334df30800000000000000
+      internalID: 4599357761529353261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_39
+      rect:
+        serializedVersion: 2
+        x: 23615
+        y: 2239
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f41c7822ce48c80800000000000000
+      internalID: -8321266578423197908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 897
+        height: 2209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46428643666eb7b80800000000000000
+      internalID: -8395863753661864860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_41
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 2047
+        width: 36
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88e22da0bcec8fa00800000000000000
+      internalID: 790609106058751624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_42
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 2159
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 781699df44e324b10800000000000000
+      internalID: 1964200853520343431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_43
+      rect:
+        serializedVersion: 2
+        x: 4223
+        y: 1967
+        width: 91
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46b454727ea71aad0800000000000000
+      internalID: -2692735968975959196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_44
+      rect:
+        serializedVersion: 2
+        x: 5871
+        y: 1887
+        width: 114
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f332debb057c630800000000000000
+      internalID: 3947212366481145628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_45
+      rect:
+        serializedVersion: 2
+        x: 14751
+        y: 1631
+        width: 1058
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f02549dd2b24c26f0800000000000000
+      internalID: -708117705414913521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_46
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 2079
+        width: 386
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0549e47a44c42360800000000000000
+      internalID: 7144050732984517902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_47
+      rect:
+        serializedVersion: 2
+        x: 3871
+        y: 2031
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32650a27f5af6eae0800000000000000
+      internalID: -1520252536339016157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_48
+      rect:
+        serializedVersion: 2
+        x: 3951
+        y: 2031
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3741216c76f54cfa0800000000000000
+      internalID: -5781391122327530381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_49
+      rect:
+        serializedVersion: 2
+        x: 4415
+        y: 1375
+        width: 1090
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0fd8d0a90776dbf0800000000000000
+      internalID: -299921441936580854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_50
+      rect:
+        serializedVersion: 2
+        x: 6431
+        y: 1711
+        width: 514
+        height: 434
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e8f5d36be2babf70800000000000000
+      internalID: 9203865512547055847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_51
+      rect:
+        serializedVersion: 2
+        x: 12927
+        y: 2047
+        width: 354
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d053471b50dd311e0800000000000000
+      internalID: -2228194374096505587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_52
+      rect:
+        serializedVersion: 2
+        x: 13471
+        y: 1951
+        width: 322
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6951261ed0dfef5c0800000000000000
+      internalID: -4179625168095537770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_53
+      rect:
+        serializedVersion: 2
+        x: 19887
+        y: 1696
+        width: 418
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 017f0e2c4441e87b0800000000000000
+      internalID: -5220212632515971312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_54
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 1791
+        width: 466
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbceadbb76c35a3e0800000000000000
+      internalID: -2043160439711667013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_55
+      rect:
+        serializedVersion: 2
+        x: 2303
+        y: 2015
+        width: 386
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9152c74598036fe20800000000000000
+      internalID: 3383945536401581337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_56
+      rect:
+        serializedVersion: 2
+        x: 5695
+        y: 847
+        width: 3266
+        height: 1186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3e21c80570de0490800000000000000
+      internalID: -7778050305345638849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_57
+      rect:
+        serializedVersion: 2
+        x: 7215
+        y: 1999
+        width: 466
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6e6d0ec101e05c80800000000000000
+      internalID: -8335915512394584465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_58
+      rect:
+        serializedVersion: 2
+        x: 14630
+        y: 1887
+        width: 36
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aad50a48a4d43ecc0800000000000000
+      internalID: -3683015087810912854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_59
+      rect:
+        serializedVersion: 2
+        x: 12671
+        y: 1951
+        width: 210
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30101bbc9fdcc6680800000000000000
+      internalID: -8760400702394531581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_60
+      rect:
+        serializedVersion: 2
+        x: 13311
+        y: 1855
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68c082b659c06a2f0800000000000000
+      internalID: -962067634509575034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_61
+      rect:
+        serializedVersion: 2
+        x: 14175
+        y: 127
+        width: 898
+        height: 1762
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be7a9b2a18ae837c0800000000000000
+      internalID: -4091262418964338709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_62
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 1247
+        width: 818
+        height: 546
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90b6adb0272305680800000000000000
+      internalID: -8768453009083831543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_63
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 1663
+        width: 130
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d0dfa4dc45eaa1a0800000000000000
+      internalID: -6797368569413775144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_64
+      rect:
+        serializedVersion: 2
+        x: 12495
+        y: 1791
+        width: 146
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f5af20f3f8286af0800000000000000
+      internalID: -403027138477840903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_65
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 1551
+        width: 389
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a9e06ce377ec16e0800000000000000
+      internalID: -1865361660565198429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_66
+      rect:
+        serializedVersion: 2
+        x: 9039
+        y: 1727
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac6b5a05059e51400800000000000000
+      internalID: 294397881822328522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_67
+      rect:
+        serializedVersion: 2
+        x: 11103
+        y: 767
+        width: 1186
+        height: 1010
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2cb3a2fd946d8230800000000000000
+      internalID: 3642678303156059180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_68
+      rect:
+        serializedVersion: 2
+        x: 4847
+        y: 1151
+        width: 850
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c73975ed5ed11d00800000000000000
+      internalID: 941778291960395716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_69
+      rect:
+        serializedVersion: 2
+        x: 16223
+        y: 1599
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2665facecbdc38c90800000000000000
+      internalID: -7168659970535238046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_70
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 1167
+        width: 338
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0958f584cc495770800000000000000
+      internalID: 8599989370385619212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_71
+      rect:
+        serializedVersion: 2
+        x: 12415
+        y: 527
+        width: 770
+        height: 1042
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72682c4dc97fb4ac0800000000000000
+      internalID: -3869727201838332377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_72
+      rect:
+        serializedVersion: 2
+        x: 16415
+        y: 1471
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36044cec51d3a27b0800000000000000
+      internalID: -5248315251874316189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_73
+      rect:
+        serializedVersion: 2
+        x: 16863
+        y: 1503
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8141f473f90e33a0800000000000000
+      internalID: -6683893855727566450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_74
+      rect:
+        serializedVersion: 2
+        x: 18911
+        y: 1503
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f67ab7b709ae1260800000000000000
+      internalID: 7070274315630573305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_75
+      rect:
+        serializedVersion: 2
+        x: 19327
+        y: 1504
+        width: 130
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc115121082f7fd70800000000000000
+      internalID: 9076990205861630413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_76
+      rect:
+        serializedVersion: 2
+        x: 19327
+        y: 736
+        width: 1234
+        height: 801
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c11bd68fdf3c10a80800000000000000
+      internalID: -8502299125936705252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_77
+      rect:
+        serializedVersion: 2
+        x: 20959
+        y: 1503
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16b33273d3786cdc0800000000000000
+      internalID: -3619056553557804191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_78
+      rect:
+        serializedVersion: 2
+        x: 23615
+        y: 1471
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e244b911ec1e4abf0800000000000000
+      internalID: -313877798834191314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_79
+      rect:
+        serializedVersion: 2
+        x: 18015
+        y: 1407
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c88d02913d7113df0800000000000000
+      internalID: -202354312827840372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_80
+      rect:
+        serializedVersion: 2
+        x: 22111
+        y: 1407
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b432bacc33400a3d0800000000000000
+      internalID: -3197551114909441205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_81
+      rect:
+        serializedVersion: 2
+        x: 3519
+        y: 1328
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6293c25c6e288f0f0800000000000000
+      internalID: -1082971782720505562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_82
+      rect:
+        serializedVersion: 2
+        x: 3535
+        y: 1344
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72ae99624e40e2380800000000000000
+      internalID: -8994246027865626073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_83
+      rect:
+        serializedVersion: 2
+        x: 4639
+        y: 1263
+        width: 226
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bd1abdf5d6aba2d0800000000000000
+      internalID: -3266333666712085064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_84
+      rect:
+        serializedVersion: 2
+        x: 13135
+        y: 1023
+        width: 258
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af0878d8c334ed8b0800000000000000
+      internalID: -5125585398549479174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_85
+      rect:
+        serializedVersion: 2
+        x: 2556
+        y: 783
+        width: 805
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5544daad2567679c0800000000000000
+      internalID: -3929823526605994923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_86
+      rect:
+        serializedVersion: 2
+        x: 3654
+        y: 1135
+        width: 36
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e7cd6a3e0fe5d10800000000000000
+      internalID: 2116393735458422321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_87
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 783
+        width: 322
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d542bebc79957cd0800000000000000
+      internalID: -2560972052035910185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_88
+      rect:
+        serializedVersion: 2
+        x: 3647
+        y: 863
+        width: 498
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5aacd61c57a2670800000000000000
+      internalID: 8514747519128479170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_89
+      rect:
+        serializedVersion: 2
+        x: 5663
+        y: 735
+        width: 594
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97aac4f62ece88eb0800000000000000
+      internalID: -4717260152396535175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_90
+      rect:
+        serializedVersion: 2
+        x: 3999
+        y: 703
+        width: 130
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3d89cd7c9e17d3f0800000000000000
+      internalID: -876197945026179777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_91
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 639
+        width: 36
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d57d37b54c3f29e0800000000000000
+      internalID: -1644029068842273319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_92
+      rect:
+        serializedVersion: 2
+        x: 5142
+        y: 607
+        width: 36
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7984cc25db96338d0800000000000000
+      internalID: -2867832275846018921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_93
+      rect:
+        serializedVersion: 2
+        x: 11718
+        y: 543
+        width: 36
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a21dd46695ee5420800000000000000
+      internalID: 2620784467276272291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_94
+      rect:
+        serializedVersion: 2
+        x: 13327
+        y: 639
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 272bbb72be484c8a0800000000000000
+      internalID: -6285753034383576462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_95
+      rect:
+        serializedVersion: 2
+        x: 13599
+        y: 351
+        width: 274
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3527e29aa0e47e60800000000000000
+      internalID: 7959233464684193086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_96
+      rect:
+        serializedVersion: 2
+        x: 16735
+        y: 671
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 962596a21e1337e80800000000000000
+      internalID: -8182141254853111191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_97
+      rect:
+        serializedVersion: 2
+        x: 17551
+        y: 703
+        width: 114
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 637b21063e7a739d0800000000000000
+      internalID: -2794580448748849354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_98
+      rect:
+        serializedVersion: 2
+        x: 18783
+        y: 671
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 240e0a425b663cc10800000000000000
+      internalID: 2072613181710196802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_99
+      rect:
+        serializedVersion: 2
+        x: 20831
+        y: 671
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90d00c898f2342900800000000000000
+      internalID: 658707488798936329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_100
+      rect:
+        serializedVersion: 2
+        x: 21647
+        y: 703
+        width: 114
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd75c8c8a3d8ccd0800000000000000
+      internalID: -2537545668146922055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_101
+      rect:
+        serializedVersion: 2
+        x: 23615
+        y: 703
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af8c917619787fef0800000000000000
+      internalID: -74441810258573062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_102
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 497
+        width: 418
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae78b4da43ae31970800000000000000
+      internalID: 8724574415113390058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_103
+      rect:
+        serializedVersion: 2
+        x: 2687
+        y: 15
+        width: 2050
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e4e2f803baddd5a0800000000000000
+      internalID: -6494794625114250015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_104
+      rect:
+        serializedVersion: 2
+        x: 13167
+        y: 607
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c93fe2b4d9eff65f0800000000000000
+      internalID: -761109860477635684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_105
+      rect:
+        serializedVersion: 2
+        x: 13935
+        y: 367
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38d4c20b06027430800000000000000
+      internalID: 3779089681678129213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG High_106
+      rect:
+        serializedVersion: 2
+        x: 5759
+        y: 0
+        width: 66
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3a42b09e00e8f50800000000000000
+      internalID: 6885441881210397625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FG High_0: -8914473247988746871
+      FG High_1: 6458780213899960057
+      FG High_10: 2303819065886729308
+      FG High_100: -2537545668146922055
+      FG High_101: -74441810258573062
+      FG High_102: 8724574415113390058
+      FG High_103: -6494794625114250015
+      FG High_104: -761109860477635684
+      FG High_105: 3779089681678129213
+      FG High_106: 6885441881210397625
+      FG High_11: 704647178833415406
+      FG High_12: -2597014851060978469
+      FG High_13: -5458848299592407778
+      FG High_14: -6060025425312851264
+      FG High_15: -7161027272650521943
+      FG High_16: -6200307784793978910
+      FG High_17: -8969996342589456863
+      FG High_18: -1963141110810630912
+      FG High_19: -3451917305301015705
+      FG High_2: 5757817067191322840
+      FG High_20: 5224822046255295823
+      FG High_21: 4550624692198422961
+      FG High_22: 6939842577739792733
+      FG High_23: -8539267858193942710
+      FG High_24: -238144257058334610
+      FG High_25: -5022784101170796407
+      FG High_26: 272813313735908459
+      FG High_27: 8801116991209301855
+      FG High_28: -1406278109998494858
+      FG High_29: -8774309365400213712
+      FG High_3: -7126662098120501126
+      FG High_30: -281084601502948985
+      FG High_31: -9080618907389025453
+      FG High_32: 7777594146093703252
+      FG High_33: 4205289261268174259
+      FG High_34: 2728817766605958303
+      FG High_35: -245795024864838240
+      FG High_36: 2575079715619191271
+      FG High_37: 5407815225910681184
+      FG High_38: 4599357761529353261
+      FG High_39: -8321266578423197908
+      FG High_4: 622352568372324079
+      FG High_40: -8395863753661864860
+      FG High_41: 790609106058751624
+      FG High_42: 1964200853520343431
+      FG High_43: -2692735968975959196
+      FG High_44: 3947212366481145628
+      FG High_45: -708117705414913521
+      FG High_46: 7144050732984517902
+      FG High_47: -1520252536339016157
+      FG High_48: -5781391122327530381
+      FG High_49: -299921441936580854
+      FG High_5: -734755662084476883
+      FG High_50: 9203865512547055847
+      FG High_51: -2228194374096505587
+      FG High_52: -4179625168095537770
+      FG High_53: -5220212632515971312
+      FG High_54: -2043160439711667013
+      FG High_55: 3383945536401581337
+      FG High_56: -7778050305345638849
+      FG High_57: -8335915512394584465
+      FG High_58: -3683015087810912854
+      FG High_59: -8760400702394531581
+      FG High_6: 5609366842428532163
+      FG High_60: -962067634509575034
+      FG High_61: -4091262418964338709
+      FG High_62: -8768453009083831543
+      FG High_63: -6797368569413775144
+      FG High_64: -403027138477840903
+      FG High_65: -1865361660565198429
+      FG High_66: 294397881822328522
+      FG High_67: 3642678303156059180
+      FG High_68: 941778291960395716
+      FG High_69: -7168659970535238046
+      FG High_7: 347362902424339512
+      FG High_70: 8599989370385619212
+      FG High_71: -3869727201838332377
+      FG High_72: -5248315251874316189
+      FG High_73: -6683893855727566450
+      FG High_74: 7070274315630573305
+      FG High_75: 9076990205861630413
+      FG High_76: -8502299125936705252
+      FG High_77: -3619056553557804191
+      FG High_78: -313877798834191314
+      FG High_79: -202354312827840372
+      FG High_8: -8780194221597129683
+      FG High_80: -3197551114909441205
+      FG High_81: -1082971782720505562
+      FG High_82: -8994246027865626073
+      FG High_83: -3266333666712085064
+      FG High_84: -5125585398549479174
+      FG High_85: -3929823526605994923
+      FG High_86: 2116393735458422321
+      FG High_87: -2560972052035910185
+      FG High_88: 8514747519128479170
+      FG High_89: -4717260152396535175
+      FG High_9: -1486155052970217620
+      FG High_90: -876197945026179777
+      FG High_91: -1644029068842273319
+      FG High_92: -2867832275846018921
+      FG High_93: 2620784467276272291
+      FG High_94: -6285753034383576462
+      FG High_95: 7959233464684193086
+      FG High_96: -8182141254853111191
+      FG High_97: -2794580448748849354
+      FG High_98: 2072613181710196802
+      FG High_99: 658707488798936329
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

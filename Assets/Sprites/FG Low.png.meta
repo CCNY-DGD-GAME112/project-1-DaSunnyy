@@ -1,0 +1,1339 @@
+fileFormatVersion: 2
+guid: d0af938f185a51640a0947b56b4aae6b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7107909624809941070
+    second: FG Low_0
+  - first:
+      213: -8569341957452540524
+    second: FG Low_1
+  - first:
+      213: -4848425304092099756
+    second: FG Low_2
+  - first:
+      213: 5961586355726812928
+    second: FG Low_3
+  - first:
+      213: 113366050030191845
+    second: FG Low_4
+  - first:
+      213: -8222020218420884397
+    second: FG Low_5
+  - first:
+      213: 7376383891488948884
+    second: FG Low_6
+  - first:
+      213: -1870513124794445084
+    second: FG Low_7
+  - first:
+      213: 4371536565447318683
+    second: FG Low_8
+  - first:
+      213: 7899341220251706335
+    second: FG Low_9
+  - first:
+      213: 6646809903942581407
+    second: FG Low_10
+  - first:
+      213: -3582161144764538025
+    second: FG Low_11
+  - first:
+      213: -4996901608005290093
+    second: FG Low_12
+  - first:
+      213: -5612764952819199831
+    second: FG Low_13
+  - first:
+      213: 8433542210512560329
+    second: FG Low_14
+  - first:
+      213: -3586884517834758974
+    second: FG Low_15
+  - first:
+      213: -1327328896405982177
+    second: FG Low_16
+  - first:
+      213: -6435258949940695071
+    second: FG Low_17
+  - first:
+      213: -8467352039336175854
+    second: FG Low_18
+  - first:
+      213: -6587464760319229826
+    second: FG Low_19
+  - first:
+      213: 7949236165644117212
+    second: FG Low_20
+  - first:
+      213: -1040012232046917343
+    second: FG Low_21
+  - first:
+      213: -7018231719232611825
+    second: FG Low_22
+  - first:
+      213: 1620732053835210930
+    second: FG Low_23
+  - first:
+      213: -7301095570039238916
+    second: FG Low_24
+  - first:
+      213: -6840370830441216868
+    second: FG Low_25
+  - first:
+      213: 1085460352727945358
+    second: FG Low_26
+  - first:
+      213: -9154056847082087780
+    second: FG Low_27
+  - first:
+      213: 6555151884547680792
+    second: FG Low_28
+  - first:
+      213: -3602453426108423301
+    second: FG Low_29
+  - first:
+      213: 122633235750195223
+    second: FG Low_30
+  - first:
+      213: -926923503307535017
+    second: FG Low_31
+  - first:
+      213: -2889489019044585863
+    second: FG Low_32
+  - first:
+      213: -1004423919869286786
+    second: FG Low_33
+  - first:
+      213: 6152304686064573221
+    second: FG Low_34
+  - first:
+      213: -9165537556832481387
+    second: FG Low_35
+  - first:
+      213: -8059741269561279503
+    second: FG Low_36
+  - first:
+      213: 5499637395717790449
+    second: FG Low_37
+  - first:
+      213: -2256098312130528341
+    second: FG Low_38
+  - first:
+      213: -1735917045076348380
+    second: FG Low_39
+  - first:
+      213: 8063127001654753942
+    second: FG Low_40
+  - first:
+      213: 667640023355615414
+    second: FG Low_41
+  - first:
+      213: 7559597122603050601
+    second: FG Low_42
+  - first:
+      213: -490331960326664040
+    second: FG Low_43
+  - first:
+      213: 7566967380356158056
+    second: FG Low_44
+  - first:
+      213: 6443246003541638075
+    second: FG Low_45
+  - first:
+      213: 4966905341118560145
+    second: FG Low_46
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FG Low_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2559
+        width: 513
+        height: 513
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b79f950bd1ab5d90800000000000000
+      internalID: -7107909624809941070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_1
+      rect:
+        serializedVersion: 2
+        x: 4975
+        y: 3023
+        width: 114
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 495d03b54e4931980800000000000000
+      internalID: -8569341957452540524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_2
+      rect:
+        serializedVersion: 2
+        x: 8031
+        y: 2175
+        width: 642
+        height: 897
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b339dbfdee6bcb0800000000000000
+      internalID: -4848425304092099756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_3
+      rect:
+        serializedVersion: 2
+        x: 8671
+        y: 2735
+        width: 802
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00789e6643fcbb250800000000000000
+      internalID: 5961586355726812928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_4
+      rect:
+        serializedVersion: 2
+        x: 9727
+        y: 3023
+        width: 130
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e483a562d1c29100800000000000000
+      internalID: 113366050030191845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_5
+      rect:
+        serializedVersion: 2
+        x: 10271
+        y: 3023
+        width: 130
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c81f86c2485ed80800000000000000
+      internalID: -8222020218420884397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_6
+      rect:
+        serializedVersion: 2
+        x: 11647
+        y: 2559
+        width: 642
+        height: 513
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 492cc1b411e2e5660800000000000000
+      internalID: 7376383891488948884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_7
+      rect:
+        serializedVersion: 2
+        x: 15615
+        y: 0
+        width: 4370
+        height: 3072
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e2dbe0393a9a06e0800000000000000
+      internalID: -1870513124794445084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_8
+      rect:
+        serializedVersion: 2
+        x: 19455
+        y: 0
+        width: 5121
+        height: 3072
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9c5e1a4851daac30800000000000000
+      internalID: 4371536565447318683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_9
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 2623
+        width: 162
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd324b0ccf810ad60800000000000000
+      internalID: 7899341220251706335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_10
+      rect:
+        serializedVersion: 2
+        x: 2319
+        y: 2575
+        width: 242
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9cbb0e24663e3c50800000000000000
+      internalID: 6646809903942581407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_11
+      rect:
+        serializedVersion: 2
+        x: 2815
+        y: 2655
+        width: 274
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7536a1efa6b994ec0800000000000000
+      internalID: -3582161144764538025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_12
+      rect:
+        serializedVersion: 2
+        x: 4831
+        y: 2847
+        width: 66
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3973445567077aab0800000000000000
+      internalID: -4996901608005290093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_13
+      rect:
+        serializedVersion: 2
+        x: 5071
+        y: 2495
+        width: 130
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a0137b53047b12b0800000000000000
+      internalID: -5612764952819199831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_14
+      rect:
+        serializedVersion: 2
+        x: 5503
+        y: 2783
+        width: 130
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c02dd725f5f90570800000000000000
+      internalID: 8433542210512560329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_15
+      rect:
+        serializedVersion: 2
+        x: 7071
+        y: 2847
+        width: 18
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c46c100983d83ec0800000000000000
+      internalID: -3586884517834758974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_16
+      rect:
+        serializedVersion: 2
+        x: 7237
+        y: 1712
+        width: 1244
+        height: 1297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f143c95b661649de0800000000000000
+      internalID: -1327328896405982177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_17
+      rect:
+        serializedVersion: 2
+        x: 9532
+        y: 1887
+        width: 709
+        height: 994
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1efa12b941e51b6a0800000000000000
+      internalID: -6435258949940695071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_18
+      rect:
+        serializedVersion: 2
+        x: 10127
+        y: 2728
+        width: 146
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2171033ae2ced7a80800000000000000
+      internalID: -8467352039336175854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_19
+      rect:
+        serializedVersion: 2
+        x: 10399
+        y: 1151
+        width: 1634
+        height: 1826
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e70c4cec3bf9494a0800000000000000
+      internalID: -6587464760319229826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_20
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 2335
+        width: 372
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd4e7e00d2c515e60800000000000000
+      internalID: 7949236165644117212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_21
+      rect:
+        serializedVersion: 2
+        x: 4101
+        y: 2767
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12948ca92622191f0800000000000000
+      internalID: -1040012232046917343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_22
+      rect:
+        serializedVersion: 2
+        x: 4447
+        y: 2607
+        width: 450
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ad2cf7f6b3a9e90800000000000000
+      internalID: -7018231719232611825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_23
+      rect:
+        serializedVersion: 2
+        x: 5247
+        y: 2399
+        width: 130
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b0efe8473ffd7610800000000000000
+      internalID: 1620732053835210930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_24
+      rect:
+        serializedVersion: 2
+        x: 6095
+        y: 2031
+        width: 402
+        height: 786
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe02ac034c4daa90800000000000000
+      internalID: -7301095570039238916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_25
+      rect:
+        serializedVersion: 2
+        x: 3727
+        y: 2367
+        width: 354
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c948b97b8fe1211a0800000000000000
+      internalID: -6840370830441216868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_26
+      rect:
+        serializedVersion: 2
+        x: 4063
+        y: 2719
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e809e169074501f00800000000000000
+      internalID: 1085460352727945358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_27
+      rect:
+        serializedVersion: 2
+        x: 5343
+        y: 2399
+        width: 418
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9a90ff3cc146f080800000000000000
+      internalID: -9154056847082087780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_28
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 0
+        width: 5509
+        height: 2673
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a623788e398fa50800000000000000
+      internalID: 6555151884547680792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_29
+      rect:
+        serializedVersion: 2
+        x: 4111
+        y: 2575
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b732be012b3810ec0800000000000000
+      internalID: -3602453426108423301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_30
+      rect:
+        serializedVersion: 2
+        x: 5759
+        y: 1311
+        width: 1314
+        height: 1282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7101c86374ea3b100800000000000000
+      internalID: 122633235750195223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_31
+      rect:
+        serializedVersion: 2
+        x: 8575
+        y: 1631
+        width: 354
+        height: 1074
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75dc46b1cf7e223f0800000000000000
+      internalID: -926923503307535017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_32
+      rect:
+        serializedVersion: 2
+        x: 8959
+        y: 2143
+        width: 564
+        height: 546
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e947ddb0976e7d0800000000000000
+      internalID: -2889489019044585863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_33
+      rect:
+        serializedVersion: 2
+        x: 10271
+        y: 2448
+        width: 290
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e76294c34c19f02f0800000000000000
+      internalID: -1004423919869286786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_34
+      rect:
+        serializedVersion: 2
+        x: 12479
+        y: 0
+        width: 2754
+        height: 2593
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52b99d20480616550800000000000000
+      internalID: 6152304686064573221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1919
+        width: 129
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59f8f7537287dc080800000000000000
+      internalID: -9165537556832481387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_36
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1919
+        width: 36
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fb7e36840c062090800000000000000
+      internalID: -8059741269561279503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_37
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1919
+        width: 36
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa9635b213a25c40800000000000000
+      internalID: 5499637395717790449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_38
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1919
+        width: 34
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: babf917d98ab0b0e0800000000000000
+      internalID: -2256098312130528341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_39
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 1919
+        width: 36
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 422bda015a8c8e7e0800000000000000
+      internalID: -1735917045076348380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_40
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 1919
+        width: 34
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69afd78a94bf5ef60800000000000000
+      internalID: 8063127001654753942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_41
+      rect:
+        serializedVersion: 2
+        x: 7295
+        y: 0
+        width: 5634
+        height: 2225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b8e1fd501fe34900800000000000000
+      internalID: 667640023355615414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_42
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 639
+        width: 162
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 966e1d1d78519e860800000000000000
+      internalID: 7559597122603050601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_43
+      rect:
+        serializedVersion: 2
+        x: 5823
+        y: 0
+        width: 706
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89055b21eadf139f0800000000000000
+      internalID: -490331960326664040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_44
+      rect:
+        serializedVersion: 2
+        x: 6687
+        y: 0
+        width: 994
+        height: 1281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 862d81dadb4430960800000000000000
+      internalID: 7566967380356158056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_45
+      rect:
+        serializedVersion: 2
+        x: 13343
+        y: 0
+        width: 34
+        height: 657
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbbfd893a120b6950800000000000000
+      internalID: 6443246003541638075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FG Low_46
+      rect:
+        serializedVersion: 2
+        x: 13951
+        y: 0
+        width: 34
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 197bc5a871efde440800000000000000
+      internalID: 4966905341118560145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FG Low_0: -7107909624809941070
+      FG Low_1: -8569341957452540524
+      FG Low_10: 6646809903942581407
+      FG Low_11: -3582161144764538025
+      FG Low_12: -4996901608005290093
+      FG Low_13: -5612764952819199831
+      FG Low_14: 8433542210512560329
+      FG Low_15: -3586884517834758974
+      FG Low_16: -1327328896405982177
+      FG Low_17: -6435258949940695071
+      FG Low_18: -8467352039336175854
+      FG Low_19: -6587464760319229826
+      FG Low_2: -4848425304092099756
+      FG Low_20: 7949236165644117212
+      FG Low_21: -1040012232046917343
+      FG Low_22: -7018231719232611825
+      FG Low_23: 1620732053835210930
+      FG Low_24: -7301095570039238916
+      FG Low_25: -6840370830441216868
+      FG Low_26: 1085460352727945358
+      FG Low_27: -9154056847082087780
+      FG Low_28: 6555151884547680792
+      FG Low_29: -3602453426108423301
+      FG Low_3: 5961586355726812928
+      FG Low_30: 122633235750195223
+      FG Low_31: -926923503307535017
+      FG Low_32: -2889489019044585863
+      FG Low_33: -1004423919869286786
+      FG Low_34: 6152304686064573221
+      FG Low_35: -9165537556832481387
+      FG Low_36: -8059741269561279503
+      FG Low_37: 5499637395717790449
+      FG Low_38: -2256098312130528341
+      FG Low_39: -1735917045076348380
+      FG Low_4: 113366050030191845
+      FG Low_40: 8063127001654753942
+      FG Low_41: 667640023355615414
+      FG Low_42: 7559597122603050601
+      FG Low_43: -490331960326664040
+      FG Low_44: 7566967380356158056
+      FG Low_45: 6443246003541638075
+      FG Low_46: 4966905341118560145
+      FG Low_5: -8222020218420884397
+      FG Low_6: 7376383891488948884
+      FG Low_7: -1870513124794445084
+      FG Low_8: 4371536565447318683
+      FG Low_9: 7899341220251706335
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
